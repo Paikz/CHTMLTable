@@ -1,5 +1,5 @@
 {
-    "name": "paikz/html-table",
+    "name": "paikz/chtmltable",
     "type": "library",
     "description": "Class for creating HTML tables",
     "keywords": ["html", "table", "htmltable", "mvc", "php"],
