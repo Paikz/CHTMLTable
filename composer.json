@@ -1,0 +1,22 @@
+{
+    "name": "paikz/HTMLTable",
+    "type": "library",
+    "description": "Class for creating HTML tables",
+    "keywords": ["html", "table", "htmltable", "mvc", "php"],
+    "homepage": "http://www.twitter.com/paikzz",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Philip Esmailzade",
+            "email": "philipesmailzade@gmail.com",
+            "homepage": "http://www.twitter.com/paikzz",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+    },
+    "autoload": {
+        "psr-4": { "Anax\\": "src/" }
+    }
+}
