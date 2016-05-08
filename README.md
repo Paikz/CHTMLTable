@@ -18,4 +18,13 @@ Assuming you have a clean install of Anax-MVC you need to move the HTMLTable fol
 
 You can then move the test file from vendor/paikz/chtmltable/webroot into your Anax webroot. The test file is a very basic example of how a html table created with CHTMLTable can look like.
 
+##How to use
+
+Creating a table is very easy. The method `createTable($tableName, $tableHeaders, $tableData)`
+
+##License
+This code is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT)
+
+
+
 
