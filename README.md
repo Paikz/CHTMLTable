@@ -20,7 +20,52 @@ You can then move the test file from vendor/paikz/chtmltable/webroot into your A
 
 ##How to use
 
-Creating a table is very easy. The method `createTable($tableName, $tableHeaders, $tableData)`
+Creating a table is very easy. The method `createTable($tableName, $tableHeaders, $tableData)` takes three parameters.
+`$tableName` represents the name of the table. Commonly used for styling purposes.
+`$tableHeaders` represents the content of the table header-tags `<th></th>`. 
+`$tableData` represents the content of the table data-tags `<td></td>`.
+Both `$tableHeaders` and `$tableData` are multidimensional arrays. It is very easy to create tables with fetched statements from a database with PDO. Just fetch an array and send it in `$tableData`.
+
+A very simple example taken from the test file looks like this.
+```
+$table = $app->table->createTable(
+
+  "testTable",
+
+  [
+    [
+      'label' => 'Name',
+    ],
+    [
+      'label' => 'Age',
+    ],
+    [
+      'label' => 'Email',
+    ],
+  ],
+
+  [
+    [
+      'name' => 'Philip Esmailzade',
+      'age' => '19',
+      'email' => 'test123@test.com',
+    ],
+
+    [
+      'name' => 'test',
+      'age' => '99',
+      'email' => 'test321@test.com',
+    ],
+  ]
+
+);
+```
+
+Result:
+**Name**	        **Age**	  **Email**
+Philip Esmailzade	  19      test123@test.com
+test	              99	    test321@test.com
+
 
 ##License
 This code is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT)
