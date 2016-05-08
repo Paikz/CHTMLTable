@@ -65,10 +65,9 @@ $table = $app->table->createTable(
 );
 ```
 
-Result:
 
 | **Name**              | **Age** | **Email**            |
-|-------------------|:---:|------------------|
+|                   |     |                  |
 | Philip Esmailzade | 19  | test123@test.com |
 | test              | 99  | test321@test.com |
 
