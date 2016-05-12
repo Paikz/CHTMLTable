@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/Paikz/CHTMLTable.svg?branch=master)](https://travis-ci.org/Paikz/CHTMLTable) # CHTMLTable
+[![Build Status](https://travis-ci.org/Paikz/CHTMLTable.svg?branch=master)](https://travis-ci.org/Paikz/CHTMLTable) 
+# CHTMLTable
 CHTMLTable is a general PHP class used for creating simple html tables.Specifically written for Anax-MVC but can also be modified and used as a standalone class.
 ## Installation
 To install CHTMTable you need to add this snippet of code to your composer.json file.
