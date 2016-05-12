@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/Paikz/CHTMLTable.svg?branch=master)](https://travis-ci.org/Paikz/CHTMLTable) 
+[![Build Status](https://travis-ci.org/Paikz/CHTMLTable.svg?branch=master)](https://travis-ci.org/Paikz/CHTMLTable)
+
 # CHTMLTable
 CHTMLTable is a general PHP class used for creating simple html tables.Specifically written for Anax-MVC but can also be modified and used as a standalone class.
 ## Installation
@@ -25,7 +26,7 @@ Creating a table is very easy. The method `createTable($tableName, $tableHeaders
 
 `$tableName` represents the name of the table. Commonly used for styling purposes.
 
-`$tableHeaders` represents the content of the table header-tags `<th></th>`. 
+`$tableHeaders` represents the content of the table header-tags `<th></th>`.
 
 `$tableData` represents the content of the table data-tags `<td></td>`.
 
@@ -75,7 +76,3 @@ $table = $app->table->createTable(
 
 ##License
 This code is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT)
-
-
-
-
