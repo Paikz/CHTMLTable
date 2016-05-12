@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Paikz/CHTMLTable.svg?branch=master)](https://travis-ci.org/Paikz/CHTMLTable)
+[![Build Status](https://travis-ci.org/Paikz/CHTMLTable.svg?branch=master)](https://travis-ci.org/Paikz/CHTMLTable) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Paikz/CHTMLTable/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Paikz/CHTMLTable/?branch=master) [![Code Coverage](https://scrutinizer-ci.com/g/Paikz/CHTMLTable/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/Paikz/CHTMLTable/?branch=master)
 
 # CHTMLTable
 CHTMLTable is a general PHP class used for creating simple html tables.Specifically written for Anax-MVC but can also be modified and used as a standalone class.
