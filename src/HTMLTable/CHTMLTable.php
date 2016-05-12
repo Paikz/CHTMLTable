@@ -9,9 +9,8 @@ class CHTMLTable
   public $tableHeaders;
   public $tableData;
 
-  public function __construct($tableName = null, $tableHeaders = [], $tableData = [])
+  public function __construct()
   {
-    $this->createTable($tableName, $tableHeaders, $tableData);
   }
 
   public function createTable($tableName = null, $tableHeaders = [], $tableData = [])
